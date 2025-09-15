@@ -1,0 +1,26 @@
+# FastAPI for the backend server
+fastapi
+uvicorn
+
+# Pydantic for data validation
+pydantic
+
+# Database connector
+pymongo
+
+# LLM and AI libraries
+# We will add specific libraries like groq, openai, transformers, etc. as we build the clients.
+
+# ML Model libraries
+scikit-learn
+xgboost
+
+# Data handling
+pandas
+numpy
+
+# Prototyping
+streamlit
+
+# Testing
+pytest
