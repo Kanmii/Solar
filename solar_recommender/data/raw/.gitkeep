@@ -1,0 +1,2 @@
+# This file ensures the 'raw' directory is tracked by Git.
+# Place raw, messy data files (e.g., jiji_scrape.csv) here.
