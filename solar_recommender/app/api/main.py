@@ -6,14 +6,13 @@ app = FastAPI(
     version="0.1.0",
 )
 
+from .endpoints import chat
+
+app.include_router(chat.router, prefix="/api/v1", tags=["chat"])
+
 @app.get("/")
 async def root():
     """
     Root endpoint to check if the API is running.
     """
     return {"message": "Welcome to the Solar Recommendation Platform API!"}
-
-# We will add the /chat endpoint and other endpoints here.
-# For example:
-# from .endpoints import chat
-# app.include_router(chat.router)

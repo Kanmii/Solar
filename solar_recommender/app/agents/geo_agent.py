@@ -4,10 +4,16 @@ class GeoAgent:
     """
     def get_solar_irradiance(self, location: str):
         """
-        Takes a location string and returns solar irradiance data.
+        Takes a location string and returns a dummy dictionary of solar irradiance data.
         """
-        # TODO: Implement robust location parsing
-        # TODO: Use API or data to get Peak Sun Hours (PSH) for the location
-        # TODO: Return different values for Dry and Rainy seasons
-        print(f"GeoAgent getting data for: {location}")
-        return {"dry_season_psh": 5.0, "rainy_season_psh": 3.5}
+        print(f"GeoAgent received location: '{location}'")
+        # In the future, this will involve real data lookups.
+        # For now, return a hardcoded response.
+        dummy_response = {
+            "location_received": location,
+            "dry_season_psh": 5.5,
+            "rainy_season_psh": 4.0,
+            "data_source": "dummy"
+        }
+        print(f"GeoAgent returning dummy data: {dummy_response}")
+        return dummy_response
