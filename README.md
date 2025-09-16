@@ -1,3 +1,8 @@
+feature/appliance-calculator
+# AI-Powered Solar Recommendation Platform
+
+This project is an intelligent system designed to help Nigerian households and businesses determine the optimal solar power system for their needs.
+=======
 # Appliance Energy Calculator
 
 This project provides a command-line tool to calculate the total wattage and energy consumption (in kWh) of a list of household appliances.
@@ -19,3 +24,4 @@ The script will prompt you to enter the name of an appliance and its daily usage
 ## `appliances.csv`
 
 The calculator relies on the `appliances.csv` file for appliance power data. Please ensure this file is present in the same directory as the `calculator.py` script.
+main
